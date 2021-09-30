@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Hackerme.Infrastucture.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Hackerme.Infrastucture.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hackerme.Infrastucture.Entities.dll": {}
+        }
+      },
+      "MyDB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Hackerme.Infrastucture.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyDB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hackerme.Infrastucture.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Hackerme.Infrastucture.Entities/Hackerme.Infrastucture.Entities.csproj",
+      "msbuildProject": "../Hackerme.Infrastucture.Entities/Hackerme.Infrastucture.Entities.csproj"
+    },
+    "MyDB/1.0.0": {
+      "type": "project",
+      "path": "../MyDB/MyDB.csproj",
+      "msbuildProject": "../MyDB/MyDB.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Hackerme.Infrastucture.Entities >= 1.0.0",
+      "MyDB >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\UI & Win Forms\\Hackerme.UI\\Hackerme.UI.csproj",
+      "projectName": "Hackerme.UI",
+      "projectPath": "C:\\Users\\User\\Desktop\\UI & Win Forms\\Hackerme.UI\\Hackerme.UI.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\UI & Win Forms\\Hackerme.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\UI & Win Forms\\Hackerme.Infrastucture.Entities\\Hackerme.Infrastucture.Entities.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\UI & Win Forms\\Hackerme.Infrastucture.Entities\\Hackerme.Infrastucture.Entities.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\UI & Win Forms\\MyDB\\MyDB.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\UI & Win Forms\\MyDB\\MyDB.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
